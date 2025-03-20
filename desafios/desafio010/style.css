@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+@font-face {
+    font-family: face;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+
+
+body{
+    background-color: #c5ebd6;
+    font-family: arial;
+}
+header{
+    background-image: linear-gradient(to bottom, rgb(43, 240, 132), rgb(19, 100, 73));
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.5);
+
+    margin: 0px;
+}
+header>h1{
+    font-family: "Big Shoulders", sans-serif;
+}
+
+header>h1,p#texto{
+    text-align: center;
+
+}
+header>p{
+    color: rgb(219, 217, 217);
+}
+
+nav{
+    text-align: left;
+    margin-right: 10%;
+    
+}
+
+nav>a{
+    margin-right: 13px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 1s ease, color 0.3s ease;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+    color: rgb(180, 180, 180);
+    
+}
+
+#verde{
+    color: rgb(9, 78, 9);
+    cursor: pointer;
+}
+
+#verdelink{
+    color: rgb(9, 78, 9);
+    background-color: rgba(41, 182, 100, 0.247);
+    font-weight: bold;
+    padding: 4px;
+}
+
+#verdelink>a{
+    text-decoration: none;
+}
+
+#verdelink:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.5);
+}
+
+main>h1{
+    color: rgb(19, 100, 73);
+    font-family: face;
+    font-size: 25px;
+}
+
+main>h2{
+    color: rgb(19, 100, 73);
+    background-color: rgba(90, 224, 90, 0.322);
+    font-family: face;
+    font-size: 25px;
+
+}
+
+#fotobugdroid{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.video{
+    border: 30px solid rgb(22, 53, 34);
+    padding: 0px;
+    margin: auto;
+}
+
+#aprendermais{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.5);
+}
+
+.caixadois{
+    background-color: rgba(143, 224, 183, 0.664);
+    border-radius: 15px;
+    text-align: justify;
+    padding: 0px 6px 6px 6px;
+    box-shadow: 3px 3px 8px -1px rgba(0,0,0,0.5);
+}
+
+.caixadois h2{
+    background-color: rgb(52, 175, 103);
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+footer{
+    background-color: rgb(16, 77, 43);
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
